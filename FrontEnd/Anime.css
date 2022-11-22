@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/37d6b937-5017-430d-9b69-9860d549a6f5/dd3ck2f-7e950afe-a138-4eaa-a055-d0f4828d06e4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMzdkNmI5MzctNTAxNy00MzBkLTliNjktOTg2MGQ1NDlhNmY1XC9kZDNjazJmLTdlOTUwYWZlLWExMzgtNGVhYS1hMDU1LWQwZjQ4MjhkMDZlNC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.OghsZ4UIYy5Ky3M_6tqmukqL3ou_FCwQnjz-arT6yZw');
+    height: 100vh;
+    background-size: cover;
+
+
+
+}
+
+.main-header {
+    text-align: center;
+    color: red;
+    font-family: "monoton";
+    font-size: 20px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 10px;
+}
+
+.paragraph {
+    color: orange;
+    font-size: 25px;
+    font-family: "Playfair";
+    font-style: italic;
+}
+
+.button {
+    font-family: "Playfair";
+    background-color: lightgreen;
+    color: darkblue;
+    border-radius: 7px;
+    border-width: 2px;
+}

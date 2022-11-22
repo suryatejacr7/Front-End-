@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.total-bg-container {
+    background-image: radial-gradient(white, #07fae6);
+    height: 100vh;
+}
+
+
+.vr-logo {
+    width: 150px;
+    height: 100px;
+
+
+}
+
+.address-icon {
+    background-color: #07e4e8;
+}
+
+.icon-container {
+    background-color: #0adef5;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.icon {
+
+    font-size: 18px;
+
+}
+
+.section-text {
+    color: #a70af5;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.heading {
+    color: gold;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.hr-line {
+    background-color: #5a7184;
+}
+
+.copyright {
+    color: red;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+}

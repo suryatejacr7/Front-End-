@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand portfolio-logo" href="#">ST7</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+
+                <a class="nav-link text-white" href="#about_me">About me</a>
+                <a class="nav-link text-white" href="#my_skills">Skills</a>
+                <a class="nav-link text-white" href="#my_projects">Projects</a>
+                <a class="nav-link text-white" href="#my_services">Services</a>
+                <a class="nav-link text-white" href="#contact_details">Contact Me</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" class="banner-section-image" />
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center ">
+                    <h1 class="banner-section-heading mb-3">
+                        Hey, I am <span class="person-name">Surya </span>
+                    </h1>
+                    <p class="banner-section-description mb-3">
+                        I am a Frontend Developer.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-me-section pt-5 pb-5" id="about_me">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 order-1 order-md-2 d-flex flex-column justify-content-center">
+                    <h1 class="about-me-section-sub-heading mb-3">Facts</h1>
+                    <h1 class="about-me-section-heading mb-3">About me</h1>
+                    <img src="https://i.ibb.co/K0qcZF0/20201211-172829.jpg" class="about-me-section-image d-md-none mb-3" />
+                    <p class="about-me-section-description">
+                        My name is Surya Teja Yamagari, and I am currently looking for a job in Frontend Development.
+                        I'm pursuing my bachelor's degree in Computer Science and Statistics.
+                        My strengths are Leadership qualities, self-motivated team player with excellent communication skills.<br /><br />
+                        I am a dedicated and versatile person with good intuition.
+                        I enjoy playing PC games & Coding, being surrounded by animals & nature and i also love traveling.
+                        My deduction skills and management skills are pretty good to be part of team and work with them and also keep a motivational charm within the team.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 order-2 order-md-1 d-none d-md-block">
+                    <img src="https://i.ibb.co/K0qcZF0/20201211-172829.jpg" class="about-me-section-image" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-section pt-5 pb-5" id="my_skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="skills-section-sub-heading mb-3">
+                        Skills :
+                    </h1>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="shadow skills-card text-center mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="skills-card-image" />
+                        <h1 class="skills-card-title">HTML</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="shadow skills-card text-center mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skills-card-image" />
+                        <h1 class="skills-card-title">CSS</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="shadow skills-card text-center mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="skills-card-image" />
+                        <h1 class="skills-card-title">Bootstrap</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="shadow skills-card text-center mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="skills-card-image" />
+                        <h1 class="skills-card-title">JS</h1>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-3">
+                    <div class="shadow skills-card text-center mb-3">
+                        <img src="https://www.logolynx.com/images/logolynx/73/73dcca5b2435a4fc91983ab4170cd695.png" class="skills-card-image" />
+                        <h1 class="skills-card-title">SQL</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="shadow skills-card text-center mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" class="skills-card-image" />
+                        <h1 class="skills-card-title">Python</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-section pt-5 pb-5" id="my_projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="projects-section-sub-heading mb-3">Portfolio</h1>
+                    <h1 class="projects-section-heading">Projects I have done:</h1>
+                </div>
+                <div class=" d-flex flex-row">
+                    <button class="Projects_button" onclick="Conference()">Conference </button>
+                    <button class="Projects_button" onclick="Podcast()">Podcasts </button>
+                    <button class="Projects_button" onclick="Mini_Projects()">Mini Projects </button>
+                    <button class="Projects_button" onclick="Random_Joke()">Random Joke </button>
+                    <button class="Projects_button" onclick="Wikipedia()">Wikipedia Search Application </button>
+                    <button class="Projects_button" onclick="Animal()">Animal</button>
+
+                    <script>
+                        function Conference() {
+                            window.open("https://suryaconference.ccbp.tech/");
+                        }
+
+                        function Podcast() {
+                            window.open("https://suryapodcast.ccbp.tech/");
+                        }
+
+                        function Mini_Projects() {
+                            window.open("https://suryaminiprjts.ccbp.tech/");
+                        }
+
+                        function Random_Joke() {
+                            window.open("https://suryarandomjoke.ccbp.tech/")
+                        }
+
+                        function Wikipedia() {
+                            window.open(" https://suryaswikipedia.ccbp.tech/")
+                        }
+
+                        function Animal() {
+                            window.open("https://suryaanimal.ccbp.tech/")
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services-section pt-5 pb-5" id="my_services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="services-section-sub-heading mb-3">Services</h1>
+                    <h1 class="services-section-heading mb-3">What I do</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow services-card mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="services-card-image" />
+                        <h1 class="services-card-title mt-2">Static Websites</h1>
+                        <p class="services-card-description">
+                            A Static Website contains Web pages with fixed content.
+                            Each page is developed using HTML and CSS and displays the same information to every visitor.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="services-card mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="services-card-image" />
+                        <h1 class="services-card-title mt-2">Responsive Web design</h1>
+                        <p class="services-card-description">
+                            Responsive Web design is the approach that suggests that design and development should respond to the user’s behaviour and environment based on screen size, platform and orientation.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow services-card mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="services-card-image" />
+                        <h1 class="services-card-title mt-2">Customisable Layouts</h1>
+                        <p class="services-card-description">
+                            Customisable sites are templates with set layouts. You may be
+                            able to change photos and colors, but your site will look
+                            similar to many other sites due to the template. The same goes
+                            for...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="work-done-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 text-center">
+                    <svg width="60px" height="60px" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z" />
+                    </svg>
+                    <hr class="hr-line" />
+                    <h1 class="work-done-card-title">25+</h1>
+                    <h1 class="work-done-card-sub-title">Projects Completed</h1>
+                </div>
+                <div class="col-4 text-center">
+                    <svg width="60px" height="60px" viewBox="0 0 16 16" class="bi bi-file-text" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4 0h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H4z" />
+                        <path fill-rule="evenodd" d="M4.5 10.5A.5.5 0 0 1 5 10h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm0-2A.5.5 0 0 1 5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm0-2A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm0-2A.5.5 0 0 1 5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                    <hr class="hr-line" />
+                    <h1 class="work-done-card-title">4500+</h1>
+                    <h1 class="work-done-card-sub-title">Lines of Code</h1>
+                </div>
+                <div class="col-4 text-center">
+                    <svg width="60px" height="60px" viewBox="0 0 16 16" class="bi bi-clock" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm8-7A8 8 0 1 1 0 8a8 8 0 0 1 16 0z" />
+                        <path fill-rule="evenodd" d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
+                    </svg>
+                    <hr class="hr-line" />
+                    <h1 class="work-done-card-title">250+</h1>
+                    <h1 class="work-done-card-sub-title">Hours Worked</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-section pt-5" id="contact_details">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 mb-3">
+                    <div class="d-flex flex-row">
+                        <img src="https://i.ibb.co/71sL767/Whats-App-Image-2020-11-09-at-19-12-57-1.jpg" class="footer-section-image" />
+                        <div class="ml-3">
+                            <h1 class="footer-section-sub-heading">Surya Teja</h1>
+                            <p class="footer-section-text">Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <h1 class="footer-section-sub-heading">Phone No.</h1>
+                    <div>
+                        <i class="fas fa-phone-alt icon"></i>
+                        <span class="footer-section-text ml-2">8341634747</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <h1 class="footer-section-sub-heading">E-mail</h1>
+                    <div>
+                        <i class="fas fa-envelope icon"></i>
+                        <span class="footer-section-text ml-2">suryatejacr7@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <h1 class="footer-section-sub-heading">Address</h1>
+                    <div>
+                        <i class="fas fa-map-marked-alt icon"></i>
+                        <span class="footer-section-text ml-2">Sharadha Nagar, Ramanthapur, Hyderabad, Telangana, India.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#home"> <button class="home_button">Back To Home</button></a>
+        <div class="footer-section-copyright-container">
+            <i class="fa fa-copyright icon" aria-hidden="true"></i>
+            <span class="footer-section-text">2021 by Surya Teja. Created with HTML, CSS & Bootstrap.</span>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+.portfolio-logo {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4b6cc1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-section-bg-container {
+    background-color: #191a1d;
+    height: 100vh;
+}
+
+.banner-section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-section-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.banner-section-image {
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.person-name {
+    color: #4b6cc1;
+}
+
+.custom-button {
+    color: white;
+    background-color: #4b6cc1;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+.about-me-section {
+    background-color: #323f4b;
+}
+
+.about-me-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-me-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-me-section-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.about-me-section-image {
+    width: 100%;
+}
+
+.skills-section {
+    background-color: #1f2933;
+}
+
+.skills-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills-card-image {
+    width: 64px;
+    height: 64px;
+}
+
+.skills-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.projects-section {
+    background-color: #3e4c59;
+}
+
+.projects-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projects-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.projects-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+}
+
+.projects-card-image {
+    width: 100%;
+}
+
+.projects-card-sub-title {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.projects-card-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.projects-card-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.projects-card-link {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.services-section {
+    background-color: #52606d;
+}
+
+.services-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.services-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.services-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.services-card-image {
+    height: 48px;
+    width: 48px;
+}
+
+.services-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.services-card-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+
+
+.work-done-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+}
+
+.hr-line {
+    background-color: white;
+    width: 60px;
+}
+
+.work-done-card-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.work-done-card-sub-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+.footer-section-copyright-container {
+    text-align: center;
+    color: #ffffff;
+    background-color: #001c32;
+    padding: 10px;
+}
+
+.footer-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-section-text {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.home_button {
+    margin-left: 10px;
+    font-family: Roboto;
+    border-radius: 10px;
+    color: lightblue;
+    font-weight: bold;
+    background-color: transparent;
+    border-style: none;
+}
+
+
+.conference-image {
+    width: 100vw;
+}
+
+.conference-text-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.conference-title {
+    color: #183b56;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.conference-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: 10px;
+}
+
+.conference-details-title {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.conference-details-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.conference-stats-container {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conference-stats-count {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.conference-stats-label {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.Projects_button {
+    margin-left: 10px;
+    font-family: Roboto;
+    border-radius: 10px;
+    color: #32a897;
+    font-weight: bold;
+    background-color: transparent;
+    border-style: none;
+}

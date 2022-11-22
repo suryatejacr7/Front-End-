@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-bg {
+    background-image: linear-gradient(to left, #dac0ff, #f3eaff, #f2ebfe);
+
+}
+
+.main-heading {
+    color: #690cb0;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+
+.timer {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.quote-Container {
+    margin: 10;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9aa5b1;
+    border-radius: 15px;
+    background-color: #f2ebfe;
+
+}
+
+.quote-Display {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.textarea {
+    border-radius: 5px;
+    width: 65vw;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button-Submit {
+    background-color: #690cb0;
+    color: white;
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    border-width: 0px;
+
+}
+
+.button-Reset {
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    border-width: 0px;
+    margin-left: 25px;
+}

@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-homepage {
+    padding: 20px;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.homepage-images {
+    width: 40vw;
+    height: 30vh;
+    padding: 10px;
+    margin: 5px;
+}
+
+.main-homepage-image {
+    width: 100vw;
+}
+
+.my-projects-heading {
+    color: #183b56;
+}
+
+.my-projects-description {
+    color: #616e7c;
+}
+
+
+
+.bgi {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png);
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.heading {
+    font-family: "Bree Serif";
+    font-size: 25px;
+    color: #5752ab;
+}
+
+.bodybg {
+    background-color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 25px;
+}
+
+.para {
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+.button1 {
+    color: #171f46;
+    width: 138px;
+    height: 36px;
+    margin-right: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Roboto";
+    border-color: #d7dfe9;
+}
+
+.button2 {
+    background-color: #5752ab;
+    color: #ffffff;
+    width: 138px;
+    height: 36px;
+    margin-left: 5px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Roboto";
+
+}
+
+
+
+.bgnews {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png');
+    background-size: cover;
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+.bodycover {
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 25px;
+}
+
+.sub_heading {
+    font-size: 12px;
+    color: #7b8794;
+
+}
+
+.heading {
+    background-color: #ffffff;
+    color: #323f4b;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.para {
+    color: #7b8794;
+}
+
+.button {
+    color: white;
+    background-color: #323f4b;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: 10px;
+    padding: 10px;
+    font-weight: 500px;
+}
+
+
+
+.bg {
+    background-image: url(' https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png');
+    height: 100vh;
+    background-size: cover;
+    color: #323f4b;
+}
+
+.main {
+    padding: 20px;
+    background-color: #f6c56e;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.buttonfood {
+    background-color: #ffffff;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 10px;
+
+}
+
+
+.bg-top-section {
+    background-image: url('https://s3.ap-south-1.amazonaws.com/www.kreately.in/wp-content/uploads/2020/11/13202659/diwali-in-india.jpg');
+    height: 30vh;
+    background-size: cover;
+}
+
+.top-section-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 55px;
+    padding: 66px;
+    text-align: center;
+}
+
+
+.bottom-section {
+    background-color: lightblue;
+    padding: 10px;
+    /*padding so the card is moved towards center nice and clean :D*/
+    text-align: center;
+}
+
+
+.card-item {
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: italic;
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.image-heading {
+    font-size: 27PX;
+    color: darkblue;
+    font-family: "lobster";
+}
+
+.card-image {
+    height: 70px;
+    width: 70px;
+}
+
+.buttondiwali {
+    color: white;
+    border-radius: 2px;
+}

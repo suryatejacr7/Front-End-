@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="p-2">
+        <h1 class="text-center chatbot-heading">Meet our Chatbot</h1>
+        <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/chatbot-bot-img.png" />
+        <div class="chat-container" id="chatContainer"></div>
+        <img class="image2" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/chatbot-boy-img.png" />
+        <div class="d-flex justify-content-center fixed-bottom">
+            <!-- fixed-bottom  -->
+            <input class="user-input" id="userInput" />
+            <button class="send-msg-btn" id="sendMsgBtn" onclick="startConvo()">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.chatbot-heading {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+    text-align: center;
+}
+
+.image {
+    width: 150px;
+}
+
+.image2 {
+    width: 150px;
+    float: right;
+}
+
+.chat-container {
+    padding: 10px;
+}
+
+.msg-to-chatbot-container {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.msg-to-chatbot {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.msg-from-chatbot-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.msg-from-chatbot {
+    color: white;
+    background-color: #e57742;
+    font-family: "Roboto";
+    font-weight: 900;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.user-input {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    font-weight: 900;
+    height: 52px;
+    border-width: 0;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 15px;
+}
+
+.borders {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+}
+
+.send-msg-btn {
+    background-color: #cbd2d9;
+    font-family: "Roboto";
+    height: 52px;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+let chatbotMsgList = ["Hi", "Hey", "Good Morning", "Good Evening", "How can I help you?", "Thank You", "Bye"];
+
+let chatContainerEl = document.getElementById("chatContainer");
+let userInputEl = document.getElementById("userInput");
+let sendMsgBtnEl = document.getElementById("sendMsgBtn");
+
+function startConvo() {
+
+    let msgToChatbotContainer = document.createElement("div");
+    msgToChatbotContainer.classList.add("msg-to-chatbot-container");
+    chatContainerEl.appendChild(msgToChatbotContainer);
+
+    let msgToChatbot = document.createElement("span");
+    msgToChatbot.textContent = userInputEl.value;
+    msgToChatbot.classList.add("msg-to-chatbot");
+    msgToChatbotContainer.appendChild(msgToChatbot);
+
+    userInputEl.value = "";
+    replyFromChatbot();
+
+}
+
+function replyFromChatbot() {
+
+    let chatbotMsgs = chatbotMsgList.length;
+    let chatbotMsg = chatbotMsgList[Math.ceil(Math.random() * chatbotMsgs) - 1];
+    //ceil nearest integer ki chestad, ochina random number ni. then -1 emo index zero kuda radaniki use avtadi -1 lekapothe empty ostundi sometimes.
+
+    let msgFromChatbotContainer = document.createElement("div");
+    msgFromChatbotContainer.classList.add("msg-from-chatbot-container");
+    chatContainerEl.appendChild(msgFromChatbotContainer);
+
+    let msgFromChatbot = document.createElement("span");
+    msgFromChatbot.textContent = chatbotMsg;
+    msgFromChatbot.classList.add("msg-from-chatbot");
+    msgFromChatbotContainer.appendChild(msgFromChatbot);
+
+}
+//improvise with if conditions

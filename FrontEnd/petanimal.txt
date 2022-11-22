@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class=" col-12 bg-container pt-4 pb-4 mt-4">
+        <h1 class="text-center mb-3 heading">Select an Animal</h1>
+        <select id="petSelect" class="form-control col-12">
+
+            <option value="lion">Lion</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="parrot">Parrot</option>
+            <option value="rabbit">Rabbit</option>
+            <option value="spider">Spider</option>
+
+        </select>
+        <div class="mt-4">
+            <img id="petImg" class="img-width" src="https://sn56.scholastic.com/content/dam/classroom-magazines/sn56/issues/2019-20/092319/should-this-lion-cub-be-in-a-zoo/SN56-20190923-Zoo-HR-TB.jpg" />
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: linear-gradient(to right, #d3d3d3, #e0e0e0);
+    border-radius: 36px;
+}
+
+.heading {
+    color: #2d3a35;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.selected-pet {
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.img-width {
+    width: 100%;
+}
+
+
+
+let petsImageUrls = {
+    dog: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/select-your-pet-dog-img.png",
+    cat: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/select-your-pet-cat-img.png",
+    parrot: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/select-your-pet-parrot-img.png",
+    spider: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/select-your-pet-spider-img.png",
+    rabbit: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/select-your-pet-rabbit-img.png",
+    lion: "https://sn56.scholastic.com/content/dam/classroom-magazines/sn56/issues/2019-20/092319/should-this-lion-cub-be-in-a-zoo/SN56-20190923-Zoo-HR-TB.jpg"
+};
+let petSelectEl = document.getElementById("petSelect");
+let petImgEl = document.getElementById("petImg");
+
+petSelectEl.addEventListener("change", function(event) {
+    let selectedPet = event.target.value; //selected pet value
+    petImgEl.src = petsImageUrls[selectedPet]; //key thoni image osthad
+
+});

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="main-heading">Linked<span class="in">in</span></h1>
+    <div class=" drake">
+        <div class="card-container shadow">
+            <h1 class="sign-in">Sign in</h1>
+            <p class="description">Stay updated on your professional world</p>
+            <input type="text" placeholder="Email or Phone" class="input-box" />
+            <div class="flex flex-row">
+                <input type="text" placeholder="Password" class="input-box" />
+
+            </div>
+            <p class="forgot-password">Forgot password?</p>
+            <button class="button-signin">Sign in</button>
+        </div>
+    </div>
+    <p class="new-to">New to LinkedIn?<span class="join-now">Join now</span></p>
+    <div class="end">
+        <p class="ending"> <span class="linked">Linked </span><span class="in2">in </span>© 2021
+
+            <span class="span">User Agreement <span class="span">Privacy Policy</span>
+                <span class="span">Community Guidelines</span>
+                <span class="span">Cookie Policy</span>
+                <span class="span">Copyright Policy</span>
+                <span class="span">Send Feedback</span>
+                <span class="span">Language</span>
+        </p>
+    </div>
+
+
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: Sans-Serif;
+}
+
+.bg-container {
+    background-color: red;
+    text-align: center;
+    background-size: cover;
+}
+
+.main-heading {
+    color: #0077b5;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px;
+}
+
+.in {
+    background-color: #0077b5;
+    color: white;
+    margin-left: 2px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card-container {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+
+.drake {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in {
+    padding-top: 30px;
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.description {
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.input-box {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border-color: grey;
+}
+
+.forgot-password {
+    color: #0077b5;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.button-signin {
+    background-color: #0072b1;
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+}
+
+.new-to {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.join-now {
+    color: #0072b1;
+
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.end {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ending {
+    font-weight: 500;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.linked {
+    color: black;
+    font-weight: bold;
+}
+
+.in2 {
+    background-color: black;
+    color: white;
+    padding: 1px;
+
+}
+
+.span {
+    margin: 2px;
+}
