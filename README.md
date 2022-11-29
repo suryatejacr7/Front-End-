@@ -1,4 +1,4 @@
-# FrontEnd-
+# Front-End
 Intriguing small-large websites built using HTML, CSS, Bootstrap, JavaScript, JSON & Rest API's
 
 First of all sorry for the scrambled codes. 
